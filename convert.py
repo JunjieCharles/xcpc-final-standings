@@ -53,6 +53,9 @@ def parse(name):
     elif '202' in name:
         year = name[name.index('202'): name.index('202') + 4]
         year = int(year) - offset
+    elif '201' in name:
+        year = name[name.index('201'): name.index('201') + 4]
+        year = int(year) - offset
     assert year is not None, f"无法解析年份: {name}"
 
     city = None
