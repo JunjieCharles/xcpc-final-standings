@@ -1,0 +1,380 @@
+﻿Rank,Team,School,Solved,Penalty,A,B,C,D,E,F,G,H,I,J,K,L,M
+1,三个顶俩(Three Hold Two),Tsinghua University,9,1396,+1(5),+2(204),+5(166),+2(151),+1(21),-4,+3(263),+4(47),,+2(257),,,+2(22)
+2,查查查乐乐(XXXLL),Tsinghua University,9,1565,+1(6),+1(133),+2(46),-5,+2(78),+6(278),+8(300),+1(57),,+4(267),,,+2(40)
+3,五点共圆(Time Flies Very Fast),Hangzhou Dianzi University,7,755,+1(8),,+1(96),-1,+1(113),,+3(254),+1(129),,+1(85),,,+1(30)
+4,中山大学_折服(SYSU_Convinced),Zhongshan (Sun Yat-sen) University,7,829,+1(5),,+1(103),,+1(52),-2,+3(277),+1(85),,+1(177),,,+2(70)
+5,Legilimens(Legilimens),Zhejiang University,7,832,+1(6),,+1(153),,+1(58),-5,+1(182),+1(121),,+2(235),,,+2(37)
+6,巨大橡树多阿克(Big Oak AK More),Tsinghua University,7,996,+1(6),,+2(162),+4(269),+1(56),,-6,+2(33),,+3(231),,,+2(79)
+7,Calabash!(Calabash!),Nanjing University,7,1079,+1(4),,+2(199),-1,+1(54),,+3(260),+5(94),,+2(196),,,+2(92)
+8,上帝和他的工具人们(God and his toolmen),Peking University,7,1090,+1(6),+2(131),+1(40),,+10(198),,+4(239),+5(104),-6,,,,+1(32)
+9,中山大学_午餐不见了(SYSU_Food* lunch=null;),Zhongshan (Sun Yat-sen) University,6,681,+1(9),,+1(173),,+2(109),,,+2(48),,+1(236),,,+1(66)
+10,Runespoor(Runespoor),Zhejiang University,6,713,+1(11),,+1(94),-3,+1(67),,-6,+2(85),,+3(260),,,+2(116)
+11,不朽之夜(Imperishable Night),Shanghai Jiao Tong University,6,719,+1(7),,+1(117),,+1(34),,+1(281),+3(181),,,,,+1(59)
+12,UESTC_傻哭了(UESTC_Sakura),University of Electronic Science and Technology of China,6,843,+1(10),-1,+1(163),,+3(141),,+2(286),+2(93),,,,,+2(50)
+13,伊丽莎白(Elizabeth),Yantai University,6,878,+1(9),+1(263),+1(169),,+2(98),,,+2(151),,,,,+5(68)
+14,拯救失学儿童!(Rescue the Mushroom!),Hong Kong University of Science and Technology,6,923,+2(38),-3,+1(264),-2,+1(85),-1,+2(216),+2(180),-1,-1,-1,-1,+3(40)
+15,不死之烟(Immortal Smoke),Fudan University,6,941,+1(7),,+4(141),-2,+4(127),,+6(271),+1(82),,-8,,,+2(73)
+16,acm.ecnu.edu.cn:1001(F0RE1GNERS (IO%)),East China Normal University,6,983,+1(40),,+4(158),,+1(122),,+5(276),+1(86),,,,,+5(81)
+17,你能卡掉我我当场把屏幕吃掉(give aunt a cup of cappuccino),Peking University,6,989,+1(10),,+2(58),,+2(122),,-6,+3(159),,+3(288),,,+4(172)
+18,KUT_Z-BIT(KUT_Z-BIT),KimChaek University of Technology,6,1041,+1(8),,+3(257),,+1(94),,+1(248),+8(174),,,,,+1(80)
+19,_(NULL),East China Normal University,6,1127,+1(11),,+3(124),,+2(187),,+3(250),+7(263),-1,,,,+2(52)
+20,伏尔甘(Vulcan),Harbin Institute of Technology,6,1153,+1(16),,+1(278),,+1(161),,+5(295),+6(148),,,,,+2(55)
+21,叠猫猫(Triple Meow),Peking University,6,1223,+1(7),,,+4(229),+8(134),,+4(196),+3(290),,,,,+1(67)
+22,渡渡鸟幼儿园(Dodo Kindergarten),Xi'an Jiaotong University,5,363,+1(7),,+1(146),-2,+1(66),,-2,+2(106),,,,,+1(18)
+23,大三索(SCAU_Yakuman),South China Agricultural University,5,417,+1(7),,+1(189),,+1(100),,-2,+1(73),,,,,+1(48)
+24,三演一鸽(Three Actors One Pigeon),Tsinghua University,5,502,+1(7),,+2(135),-4,+3(110),,-6,+1(51),,-5,,,+2(119)
+25,最大瘤(GDUT_Maximum Liu),Guangdong University of Technology,5,595,+1(11),,-4,,+2(126),,+1(282),+1(45),,,,,+2(91)
+26,UESTC_Trimen(UESTC_Trimen),University of Electronic Science and Technology of China,5,598,+1(23),,+1(178),,+1(129),,,+4(157),,-4,,,+1(51)
+27,WheatfieldWithCrows(WheatfieldWithCrows),Zhejiang University,5,627,+1(15),,+6(202),-3,+2(121),,,+4(67),,,,,+1(42)
+28,艾斯易悠-都行(SEU-Accepted_all),"Southeast University, China",5,630,+1(20),,+1(262),,+1(95),-5,-4,+3(158),,,,,+1(55)
+29,"你好，世界(Hello, world)",Beihang University,5,633,+1(20),,+1(283),,+1(67),,,+2(200),,,,,+1(43)
+30,咕咕竞赛本当上手(Gu Gu Tenth-dan),Tsinghua University,5,655,+1(19),,+1(204),,+1(126),,,+1(98),,-2,,,+4(148)
+31,荠蒻(Konjac of Tongji),Tongji University,5,671,+1(11),,+1(134),,+5(229),,-3,+2(78),,,,,+4(59)
+32,听党指挥(ALPC_Allegiance),National University of Defense Technology,5,726,+2(16),,,,+2(112),,+1(276),+2(201),,,,,+1(61)
+33,全场队名最正常的队(Name Of Normality),Peking University,5,727,+1(12),,+3(258),,+1(84),,,+5(207),,,,,+1(46)
+34,"道，可道，非常道(Wei, All Wei, Wei together)",Qingdao No.2 Middle School of Shandong Province,5,731,+1(16),,+3(211),,+1(71),,-4,+5(230),,,,,+3(43)
+35,题都做不(Icdereap),Nanjing University,5,737,+1(15),,+1(261),,+2(87),,,-8,,+1(268),,,+1(86)
+36,SCUT_team382(SCUT_team382),South China University of Technology,5,749,+1(10),,+1(227),,+2(205),,-4,+4(165),,,,,+1(62)
+37,黑暗封印(Dark Seal),Shanghai Jiao Tong University,5,765,+1(2),,,,+1(84),,+4(182),+8(186),,,,,+3(71)
+38,追梦者(Dreamer),Sichuan University,5,787,+1(15),,,,+3(148),,+1(289),+2(202),,,,,+2(53)
+39,SUSTech_zzz(SUSTech_zzz),Southern University of Science and Technology,5,791,+1(9),,+2(240),,+3(115),,-5,+4(236),,,,,+2(51)
+40,唯我心(Only my heart),Shandong University,5,815,+1(8),,+4(250),,+1(134),,-2,+6(169),,,,,+1(94)
+41,中山大学_职业鸽手(SYSU_gugugu),Zhongshan (Sun Yat-sen) University,5,823,+1(10),,+5(260),,+5(195),,-1,+3(106),,,,,+1(52)
+42,大熊软糖(SoftBear),Fuzhou University,5,851,+1(13),,+1(207),,+2(149),,-3,+5(268),,,,,+2(94)
+43,一号位(fishing),Beihang University,5,864,+1(19),,+1(259),,+1(148),,,+4(266),,,,,+2(92)
+44,小小青蛙不输风雨(kerokero),Fudan University,5,892,+1(23),,+6(229),,+2(183),,-7,+8(149),,,,,+2(28)
+45,零叉八C(0xCCCCCCCC),Beijing University of Posts and Telecommunications,5,968,+1(7),,,,+6(148),,+1(172),+9(279),,,,,+3(62)
+46,I题是个签到题(Problem I is the easiest one),Beijing Institute of Technology,4,363,+2(9),,,,+1(87),,+3(152),-13,,,,,+2(35)
+47,UFO(UFO),Hunan University,4,383,+1(6),,+2(183),,+1(113),,-2,-36,,,,,+2(41)
+48,???(???),Zhejiang Normal University,4,406,+1(11),,-4,,+4(114),,-1,+1(127),,,,,+2(74)
+49,梅溪湖女孩说队名一定要长那就这么长吧(Have you ever seen such a long team name),Zhejiang Normal University,4,413,+1(10),,,,+1(107),,-5,+3(164),,,,,+2(72)
+50,我舅知道！(Your uncle knows again?),Renmin University of China,4,424,+1(9),,+1(171),,+1(151),,,-7,,,,,+2(73)
+50,咕咕鸽(Tranquility),Beihang University,4,424,+2(15),,+1(64),,-9,,+2(276),-2,,,,,+1(29)
+52,三相之力(NJUPT_Trinity Force),Nanjing University of Posts and Telecommunications,4,442,+1(25),,,,+1(131),,-1,+2(157),,,,,+3(69)
+53,"开局一套版，AC全靠蒙(No ban, No ac)",Beijing University of Posts and Telecommunications,4,473,+1(18),,,,+1(182),,-3,+2(161),,,,,+2(72)
+54,几何旋律(Geometric Rhythm),Xidian University,4,476,+1(17),,+1(274),,+2(126),,,-22,,,,,+1(39)
+55,可持久化最小鸽(persistent lowest Gu),"Southeast University, China",4,478,+1(13),,,,+2(168),,-2,+1(218),,,,,+1(59)
+56,深不可测(oyashirosama),Beijing Normal University,4,484,+1(6),,+2(154),,+1(247),,-3,-12,,,,,+1(57)
+57,有万说万(have one say one),Xidian University,4,506,+1(10),,,,+1(173),,,+2(228),,,,,+1(75)
+58,村里最好的键盘(The Best KeyBoard In The Village),Zhejiang Normal University,4,532,+1(12),,,,+1(177),,+2(241),-15,,,,,+1(82)
+59,背着队友偷偷WA(TJU_WA back),Tianjin University,4,535,+1(29),,,,+2(166),,-2,+3(195),,,,,+2(65)
+60,眼大鸟2(EyeBigBird2),Zhejiang University of Technology,4,554,+1(17),,,,+2(111),,+4(259),-10,,,,,+1(87)
+61,拯救世界(NJUPT_Goforworld),Nanjing University of Posts and Telecommunications,4,571,+1(14),,,,+1(123),,,+4(249),,,,,+3(85)
+62,"为人师表(Hello, please give us some ac)",Changsha University,4,576,+2(31),,-1,,+1(139),,,+2(182),,,,,+6(84)
+63,键盘绝响(Keyboard Milk),"Soochow University, China",4,577,+1(10),,,,+3(120),,-4,+8(221),,,,,+1(46)
+64,落叶(Defoliation),Xi'an Jiaotong University,4,579,+1(14),,,,+3(146),-4,+3(232),-5,,,,,+2(87)
+65,UESTC_Default(UESTC_Default),University of Electronic Science and Technology of China,4,602,+1(10),,+5(259),,+1(185),,,-8,,,,,+1(68)
+66,你以为你CF过了四题(Failed System Test),Shanghai University,4,618,+1(6),,,,+4(208),,+1(99),-20,,,,,+2(225)
+67,GMT+8(GMT+8),University of Hong Kong,4,619,+1(12),,,,+2(236),,,+4(214),,-3,,,+1(77)
+68,跃迁引擎(Transition Engine),Nanjing University of Science and Technology,4,625,+1(10),,,,+4(107),,-5,+4(235),,,,,+4(93)
+69,我永远喜欢由比滨结衣(Yuigahama Yui saigao),Hohai University,4,629,+1(15),,,,+1(186),,,+2(258),,,,,+3(110)
+70,口古合鸟(Coo Pigeon),Renmin University of China,4,630,+2(17),,-2,,+1(138),,+7(294),-3,,,,,+1(41)
+71,珞珈山老演员(old divers),Wuhan University,4,631,+1(11),,,,+1(184),,,+9(208),,,,,+2(48)
+72,森の妖精(muri no yousei),Beijing Institute of Technology,4,632,+1(5),,,,+1(249),,+3(260),-4,,,,,+2(58)
+73,奈亚子(^/7(l _(l+# +& ^(o)),Northwestern Polytechnical University,4,637,+2(36),,,,+1(182),,,+2(275),,,,,+2(84)
+74,凛冬将逝(LosWin),Northeast Normal University,4,647,+1(14),,,,+2(91),,,+7(244),,,,,+2(138)
+75,三个想黄人(CQU_wanting masters),Chongqing University,4,674,+1(20),,,,+1(136),,,+7(296),,,,,+2(82)
+76,好丽友派(ORION_PIE),Peking University,4,678,+1(11),,+3(187),,+9(168),,,-9,,,,,+3(72)
+77,小熊硬糖(HardBear),Fuzhou University,4,688,+2(23),,,,+1(167),,-1,+1(141),,,,,+7(217)
+78,塔斯丁苟(Eureka),Fuzhou University,4,689,+1(23),,,,+4(189),,,+5(227),,,,,+3(70)
+79,Yakimochi(Yakimochi),Beijing University of Posts and Telecommunications,4,699,+1(16),,,,+2(223),,+7(250),-10,,,,,+1(70)
+80,十六夜(FST stay night),Shandong University,4,705,+1(4),,-4,,+1(199),,,+12(181),,,,,+3(61)
+81,暗影反叛者(Shadow Bringers),Nankai University,4,726,+1(18),,,-1,+3(285),,,+4(226),,,,,+3(57)
+82,中山大学_代码之颂(SYSU_CodeChant),Zhongshan (Sun Yat-sen) University,4,743,+1(20),,,,+8(276),,,+5(181),,,,,+1(46)
+83,已然遥远的理想之城(Lord Camelot),Harbin Institute of Technology,4,761,+1(14),,,,+2(99),-3,,+16(249),,,,,+2(59)
+84,TI1050(TI1050),Hangzhou Normal University,4,779,+1(12),,,,+1(278),,,+7(284),,,,,+2(65)
+85,黄金矿工(Gold Miner),China University of Mining and Technology,4,813,+1(16),,+1(230),,,,,+12(276),,,,,+2(51)
+86,SMU_旺仔一家(SMU_Wangzai Family),SouthWest Minzu University,4,834,+2(21),,,,+4(291),,,+10(200),,,,,+2(42)
+87,我亲爱的大佬请带带我(my dear dalao please daidai wo),South China University of Technology,4,838,+1(15),,,,+3(277),,-1,+7(213),,,,,+5(93)
+88,UESTC_HeavensFeel(UESTC_LoveMaster),University of Electronic Science and Technology of China,4,862,+2(19),,,,+4(277),,+7(194),-8,,,,,+3(132)
+89,universeNo1(universeNo1),Donghua University,4,887,+1(20),,,,+2(226),,,+10(299),,,,,+3(102)
+90,鸿蒙(Harmony),Beijing University of Posts and Telecommunications,4,937,+1(13),,-1,,+4(270),,,+1(278),,,,,+6(216)
+91,UESTC_我不打了我崩溃了(UESTC_Dove),University of Electronic Science and Technology of China,4,988,+1(14),-1,-1,-1,+4(246),-1,-1,+12(275),-1,-1,-1,-1,+5(93)
+92,"我们遇到whgg也不要怕(whgg, ao li gay!)","Soochow University, China",4,991,+1(17),,,,+4(239),,,+17(287),,,,,+1(68)
+93,发现号(SKD1031 Discovery),Shandong University of Science and Technology,4,1215,+3(21),-2,,,+2(277),,,+20(254),,,,,+3(183)
+94,黑色切鸽者(The Black Pigeon-Killer),Huazhong University of Science & Technology,3,145,+1(10),,,,+1(85),,,-9,,,,,+1(50)
+95,这是我的最强一击(perfect submission),East China Normal University,3,156,+1(11),,,,+1(89),,,-19,,,,,+1(56)
+96,白昼之光(DayLight),Zhejiang A & F University,3,167,+1(29),,-4,,+1(96),,,-14,,,,,+1(42)
+97,大脑喷射(BrainsJetTU),Beijing Jiaotong University,3,184,+1(8),,-2,,+1(96),,,-2,,-2,,,+3(40)
+98,UESTC_TBC(UESTC_TBC),University of Electronic Science and Technology of China,3,200,+1(16),,,,+1(122),,,-13,,,,,+2(42)
+99,Thunder AC(Thunder AC),Sichuan University,3,214,+1(13),,,,+1(111),,,-17,,,,,+3(50)
+100,试炼者(Alchemist),Beihang University,3,231,+1(15),,,,+2(150),,-3,-6,,,,,+1(46)
+101,西北大学三队(nwu team3),Northwest University,3,272,+1(24),,,,+1(149),,,-15,,,,,+1(99)
+102,七喜炖螃蟹(Seven-up stewed crab),Northeast Agricultural University,3,281,+1(14),,,,-9,,,+4(132),,,,,+2(55)
+103,几何问题的数论结构(Geomature),Beijing Institute of Technology,3,290,+1(22),,,,-4,,-2,+2(158),,,,,+2(70)
+104,铁牌选手(Iron card players),Southwest University of Science and Technology,3,295,+1(15),,,,-2,,,+2(164),,,,,+2(76)
+104,AC钙奶(ACmilk),Qingdao University,3,295,+1(29),,,,+1(184),,,,,,,,+1(82)
+106,铸铁成金(79Fe(26)+Effort→26Au(79)),Northwestern Polytechnical University,3,296,+1(16),,,,+1(190),,,-15,,,,,+2(70)
+107,五仁五仁，五馅连仁(lca-ap i love you),Northwest University,3,297,+3(26),,,,+1(120),,,,,,,,+3(71)
+108,菜鸡三人行(Noob Threesome),Henan University,3,309,+1(24),,-4,,+1(160),,,-10,,,,,+2(105)
+109,夕阳(still black),Sichuan University,3,313,+1(12),,,,+4(141),,,-20,,,,,+2(80)
+110,華鳥風月(Gold for Cloth),Chongqing University,3,314,+2(11),,,,+1(110),,,-12,,,,,+2(153)
+110,鸽德巴赫(Guldbach),ShanDong Normal University,3,314,+1(32),,,,+1(198),,,-4,,,,,+1(84)
+112,第1226564个质数(the 1226564th prime number),JiangNan University,3,315,+1(12),,+1(237),,-3,,,,,,,,+1(66)
+113,ZJUT5(ZJUT5),Zhejiang University of Technology,3,317,+1(26),,,,+3(196),,,-3,,,,,+1(55)
+114,银河护卫队(Guardians of the Galaxy),Beijing University of Posts and Telecommunications,3,321,+1(9),,,,+2(143),,-3,-8,,-1,,,+2(129)
+115,AC主旋律(ACtheme),Qingdao University,3,323,+1(23),,,,+1(176),,,-9,,,,,+2(104)
+115,打铁还需自身硬(RobinVanPerise Solve FFT by Feet),Harbin Engineering University,3,323,+1(32),,,,+1(185),,,,,,,,+1(106)
+117,欧阿二(Or2),Xidian University,3,327,+1(19),,,,+1(119),,-5,,,,,,+2(169)
+117,喵喵流(Mewflow),Fudan University,3,327,+1(11),,-3,,+4(198),,,-22,,-2,,,+2(38)
+119,别再出杰哥了(No Angelina),Nanjing University of Science and Technology,3,330,+2(26),,,,+1(160),,-2,,,,,,+3(84)
+119,源(Seed),Zhejiang University of Technology,3,330,+1(24),,,,+3(162),,,-12,,,,,+1(104)
+121,荠鸽(gugugu of Tongji),Tongji University,3,340,+1(14),,,,+2(142),,-4,-7,,,,,+5(84)
+121,队友让我AC，我只能当灯泡(two people and a bulb),Central China Normal University,3,340,+1(19),,-3,,+1(197),,,,,,,,+3(84)
+123,憨批猫(Corner Cat),Anhui University,3,343,+2(30),,,,+1(108),,-1,+1(185),,,,,-2
+124,橘子猫暴打我(Kujo Jotaro),Nanchang Hangkong University,3,346,+1(33),,,,+1(214),,,-6,,,,,+1(99)
+124,UESTC_POP(UESTC_POP),University of Electronic Science and Technology of China,3,346,+1(12),,,,+2(250),,,,,,,,+1(64)
+126,ZCMU-D题也太难了吧(ZCMU-Problem D is so difficult),Zhejiang Chinese Medical University,3,350,+2(20),,,,+3(173),,,,,,,,+3(57)
+127,ALPC_作风优良(ALPC_Excellent_style),National University of Defense Technology,3,360,+1(13),,,,+2(120),,,-22,,,,,+4(147)
+128,波罗的海仲夏夜(Dreaming in the Baltic),Beijing University of Posts and Telecommunications,3,363,+1(30),,,,+2(237),,,-7,,,,,+1(76)
+129,能吃能睡带得动(EatSleepAndMove),Wuhan University,3,379,+1(13),,,,+5(223),,,-15,,,,,+1(63)
+130,起风了(Apocalypse),Nanjing University of Aeronautics and Astronautics,3,382,+2(30),,,,+3(235),,,-5,,,,,+1(57)
+131,朴实无华且枯燥(plain and dull),Hohai University,3,387,+1(26),,,,+1(247),,,-1,,,,,+1(114)
+132,这座城，又多了三个打铁的人(CQU_iron man),Chongqing University,3,391,+2(27),,,,+3(208),,,,,,,,+2(76)
+133,拿了金牌就去谈恋爱(gold ? npy : doge),Renmin University of China,3,392,+1(76),,,,+2(203),,-1,-10,,,,,+1(93)
+134,无未(someday I will be just like you),Shandong University of Technology,3,395,+2(16),,,,,,,+5(193),,,,,+2(66)
+135,最强蛐蛐(The Stringest QUQU),Shandong University at Weihai,3,400,+4(39),,,,+2(187),,,-7,,,,,+2(74)
+136,晨曦的光(GDUT_light at dawn),Guangdong University of Technology,3,401,+1(34),,,,,,,+5(205),,,,,+1(82)
+137,外柔内刚(wrng),Xi'an Jiaotong University,3,402,+1(14),,,,+1(255),,,-3,,,,,+2(113)
+138,阿尔法队(WZU Alpha),Wenzhou University,3,403,+1(11),,-1,,+4(193),,,,,,,,+4(79)
+139,AK糖队(acesulfame-k),Harbin Institute of Technology at Weihai,3,419,+1(24),,,-3,+2(258),,,-1,,,,,+1(117)
+140,QYQ(QYQ),Shandong University of Technology,3,423,+1(12),,,,+3(180),,,-21,,,,,+5(111)
+141,duangduangduang(duangduangduang),Zhengzhou University of Light Industry,3,424,+2(27),,,,+1(200),,,,,-1,,,+3(137)
+142,AK自动机(AK Automaton),China Jiliang University,3,425,+2(32),,,,+2(196),,,,,,,,+3(117)
+143,lzz上分之旅(lzz),Shandong University of Technology,3,428,+1(19),,,,+1(247),,,,,,,,+2(142)
+144,拿了金牌就去吃鸡(gold medal to chicken),Zhejiang University City College,3,433,+1(15),,,,+1(159),,,-9,,,,,+5(179)
+145,就这么喜欢写代码吗？你这个小秃头(So like coding?You badly),Wuhan University of Science and Technology,3,437,+1(21),,,,+4(221),,,-1,,,,,+3(95)
+146,"你好 西安(Hello, Xi'an)",Shandong University of Technology,3,438,+1(26),,,,+3(257),,,,,,,,+2(95)
+147,三尺剑(three feet sword),Qingdao University of Science and Technology,3,439,+1(20),,,,+4(275),,,,,,,,+1(84)
+148,趁热(Trinity),Xiamen University,3,443,+1(13),,,,-1,,-3,+4(159),,,,,+4(151)
+149,打得不错(Good luck),Hohai University,3,444,+1(25),,,,+6(211),,,,,,,,+2(88)
+150,量子波动速铁(CUGB-Team-7),"China University of Geosciences, Beijing",3,447,+2(16),,,,,-27,-1,+5(246),,,,,+2(65)
+151,米兰的小铁匠(Ge you suo hao),Southwest University of Science and Technology,3,462,+2(31),,,,+3(205),,,-18,,,,,+3(126)
+152,咸水小黄鸭(Dying for the yellow duck),"Southeast University, China",3,467,+1(15),,,,+4(249),,,-9,,,,,+2(123)
+153,Tree-AC(Tree-AC·),Hangzhou Normal University,3,469,+1(34),,,,+1(241),,,-4,,,,,+4(134)
+153,宁静致远(ningjingzhiyuan),"Ningbo Institute of Technology, ZJU",3,469,+1(12),,,,+4(262),,,-25,,,,,+3(95)
+155,春田花花幼稚园(Spring Fafa Kindergarten),Huazhong University of Science & Technology,3,485,+1(56),,,,+5(245),,,,,,,,+3(64)
+156,则式长号(NEU_Regular_Trombone),Northeastern University (China),3,493,+1(17),,,,+1(196),,,-4,,,,,+6(180)
+156,四级好难过啊(CET4 So Sad),Zhejiang University City College,3,493,+1(19),,,,+2(228),,-1,,,,,,+2(206)
+158,蜗壳disco(Volute disco),University of Science and Technology of China,3,499,+1(27),,,,+2(144),,,,,,,,+7(188)
+159,这题不是随便搞吗(easy problems),Chongqing University,3,511,+1(9),,-3,,+6(237),,,-2,,,,,+5(85)
+160,出来对线(Qualify),Wuhan University,3,518,+1(8),,,,-3,,,+10(220),,,,,+3(70)
+161,黑眼圈(King of the night),Jilin University,3,525,+1(12),,,,+4(280),,,,,,,,+3(133)
+162,太空人(Spaceman),Hangzhou Dianzi University,3,530,+1(13),,-1,-3,+1(245),,,-9,,,,,+6(172)
+163,LL说想去南京(LL goes to Nanjing),Zhejiang University City College,3,539,+3(56),,-6,,+1(272),,,,,,,,+2(151)
+164,那怎么办呢(What should we do),Nanjing University of Science and Technology,3,541,+1(16),,,,+2(292),,,,,,,,+3(173)
+165,夕山林寸(follow_dream),Beijing Forestry University,3,557,+1(56),,,,+5(277),,,,,,,,+2(124)
+166,来了，宝贝！(come on baby!),Nanyang Institute of Technology,3,562,+1(28),,,,+1(291),,,,,,,,+5(163)
+166,鸡山村三队(chicken moutain village third team),Shandong University of Finance and Economics,3,562,+1(27),,,,+3(293),,,,,,,,+5(122)
+168,说唱三人组(PGTHREE),Zhejiang A & F University,3,580,+2(49),,,,+3(288),,,,,,,,+3(143)
+169,焦糖拿铁(caramel latte),"Soochow University, China",3,586,+1(35),,,,+9(293),,,,,,,,+1(98)
+170,争金夺银(wow~you can really dance),Henan Polytechnic University,3,587,+1(18),,,,+7(296),,,,,,,,+3(113)
+171,1e9+7(1e9+7),Hangzhou Dianzi University,3,591,+1(21),,,,+8(295),,,-12,,,,,+3(95)
+172,睡梦罗汉拳(I am sleepy),Xidian University,3,611,+1(20),,,,+10(218),,,-24,,,,,+3(153)
+173,阿姨你K都不要吗(Aunt Can't AC K),Beijing Jiaotong University,3,625,+2(34),,,-1,,,+6(288),,,,,,+2(163)
+174,社会佩奇(Social Peppa),Beijing Institute of Technology,3,630,+1(21),,-1,,+4(230),,,-1,,,,,+10(139)
+175,范特蒙德行列式(Vandermonde),Nankai University,3,632,+2(13),,-4,,-1,,,+10(219),,,,,+3(160)
+176,网络连接中断(404),Nanjing University of Aeronautics and Astronautics,3,638,+1(16),,,,-1,-2,+10(300),,,,,,+3(102)
+177,sightseeing tour(sightseeing tour),Northwest University,3,643,+2(33),,,,+4(293),,,,,,,,+5(157)
+178,确定性有限状态自闭机(DFA),Henan Polytechnic University,3,657,+2(23),,,,+4(300),,,,,,,,+3(214)
+179,騶櫙罍裃卷积泷蠡嫆鱼块劈(zooleikajjllrykpki),Huazhong University of Science & Technology,3,682,+1(29),,,,+7(188),,,-7,,,,,+6(245)
+180,我发交后百发wa(submit and wa),Zhengzhou University,3,693,+1(24),,,,+3(289),,,,,,,,+8(200)
+181,青稚(Blue Bird),Dalian Maritime University,3,712,+3(31),,,,-1,,,+5(294),,,,,+6(167)
+182,糖糖真好吃(I love Candy),Xi'an University of Posts and Telecommunications,3,743,+2(22),,,,+1(254),,,,,,,,+10(267)
+183,华师棋王(Stir-fried grapes with corn),East China Normal University,3,889,+1(12),,,,-6,,-3,+21(299),,,,,+3(138)
+184,我们去西安吃什么？(what will we eat after going to Xian?),Central South University,2,58,+1(14),,,,-1,,,-6,,,,,+1(44)
+185,'）; DROP TABLE Teams; --('); DROP TABLE Teams; --),University of Science and Technology of China,2,68,+1(17),,,,-3,,,-8,,,,,+1(51)
+186,线性加速器(linear accelerator),Central South University,2,71,+1(10),,-5,,-7,,,,,,,,+2(41)
+186,发发塔(TJU_fafata),Tianjin University,2,71,+1(20),,,,,,,-14,,,,,+1(51)
+188,对对(wow),Xi'an Jiaotong University,2,82,+1(12),,,,,,,-6,,,,,+1(70)
+189,稍等，我们想一个队名(wait for a name),Sichuan University,2,98,+1(20),,,,-1,,,,,,,,+1(78)
+190,小小青蛙听风就是雨(penalty -1s),University of Shanghai for Science and Technology,2,105,+1(19),,,,-6,,-4,,,,,,+2(66)
+191,wawa automaton(wawa automaton),Harbin Institute of Technology at Shenzhen,2,107,+1(33),,,,-5,,,,,,,,+1(74)
+192,生死有命(Life and death),North University of China,2,110,+1(25),,,,,,,-7,,,,,+1(85)
+193,哈理工2019秋07(HRBUST2019A07),Harbin University of Science and Technology,2,113,+1(20),,,,-8,,,,,,,,+1(93)
+194,菜的魔力转圈圈(Spinning Magic Vegetables),Chongqing University of Posts and Telecommunications,2,115,+2(18),,,,-7,,,-11,,,,,+1(77)
+195,我们迅哥会写签到题(NAMINGPHOBIA),Hunan Normal University,2,119,+1(35),,,,-5,,,,,,,,+1(84)
+196,我就是把键盘敲烂了也不用IDE(VS Code Delicious),Renmin University of China,2,121,+2(20),,,,-4,,,-14,,,,,+2(61)
+196,破壁者(Decoders),Qufu Normal University,2,121,+2(19),,,,-4,,,,,,,,+1(82)
+198,我们想要气球(The Best Try),Qingdao University,2,125,+1(33),,,,-3,,,,,,,,+1(92)
+199,ac山岳险天下(AC Mountains),Wuhan University of Science and Technology,2,133,+1(19),,,,-3,,,,,,,,+2(94)
+200,我想要小姐姐(we are not gay),Changsha University of Science and Technology,2,138,+1(32),,,,-1,,,,,,,,+1(106)
+201,Keyb0ardInterrupt(Keyb0ardInterrupt),Harbin Institute of Technology at Weihai,2,140,+1(10),,,,,,,-6,,,,,+3(90)
+202,小姐姐最好了(Miss sister is the best),Hunan University of Technology,2,143,+1(25),,,,-1,,,-1,,,,,+1(118)
+203,可有鱼丸粗面(No Noodle Left),Communication University of China,2,147,+1(25),,,,-2,,,-17,,,,,+2(102)
+204,SCNU-CS(SCNU-CS),South China Normal University,2,149,+2(38),,,,-1,,,,,,,,+1(91)
+205,天津第二妇幼保健院(TJU_tjdefybjy),Tianjin University,2,156,+2(29),,,,-1,,,-31,,,,,+2(87)
+206,！武理！(!wut!),Wuhan University of Technology,2,165,+1(30),,,,-1,,,,,,,,+2(115)
+207,二次求导(Second Derivative),Taiyuan University of Technology,2,167,+1(18),,,,-5,,,,,,,,+4(89)
+207,陕师大1队(ec_snnu1),Shaanxi Normal University,2,167,+1(29),,,,,,,,,,,,+2(118)
+209,墨菲定律(Murphy's Law),Shandong Technology and Business University,2,170,+1(32),,,,,,,,,,,,+2(118)
+210,谁不爱布丁奶茶(BallBallYou),Dalian University of Technology,2,171,+1(29),,,,-1,,,,,,,,+2(122)
+211,来稳的(Lavender),Nanjing University of Information Science & Technology,2,176,+1(17),,,,-1,,,,,,,,+3(119)
+212,极光(zufe_Twilight),Zhejiang University of Finance and Economics,2,177,+1(12),,,,-17,,,,,,,,+5(85)
+213,你好世界(Hello World),Changchun University of Science and Technology,2,178,+1(43),,,,-1,,,-1,,,,,+2(115)
+214,小梦(Little Dream),Chongqing University of Posts and Telecommunications,2,180,+1(20),,,,-5,,,,,-2,,,+3(120)
+215,撒网摸鱼(Catching Fish),Harbin Engineering University,2,182,+1(14),,,,,,,,,,,,+2(148)
+216,君问AC未有C(You ask AC but not C),Central China Normal University,2,183,+1(29),,,,-3,,,,,,,,+1(154)
+217,樱花树下(Sakura Tree),Xidian University,2,185,+1(18),,,,-5,,,,,,,,+3(127)
+218,教练我想穿裙子(I want a skirt),Nanjing University of Aeronautics and Astronautics,2,191,+1(22),,,,-1,,,,,,,,+2(149)
+219,初心(JYUteam1),Jiaying University,2,194,+2(34),,,,,,,,,,,,+3(100)
+220,人工智障(GDUT_Artificial Fool),Guangdong University of Technology,2,199,+1(25),,,,,,,-5,,,,,+3(134)
+221,毕业自动机(graduate automaton),Xi'an Jiaotong University,2,201,+2(33),,,,-5,,,-13,,,,,+3(108)
+221,打不赢电脑(Knocked out by AI),Beihang University,2,201,+1(13),,-4,,-1,,,,,,,,+4(128)
+221,相信柯学(Believe yourself),Jiangxi Normal University,2,201,+1(36),,,,-2,,,-9,,,,,+2(145)
+221,真难队(Team Untitled),Shanghai University,2,201,+1(11),,,,-6,,,,,,,,+3(150)
+225,常数抛光机(Constant Equals Zero),Beijing University of Posts and Telecommunications,2,207,+1(20),,,,,-9,-8,,,,,,+4(127)
+226,我队友从不训练(My teammates never train),Changzhou University,2,208,+2(41),,,,,,,,,,,,+1(147)
+226,金刚狼逆变(jglnb),Shandong University of Technology,2,208,+1(19),,,,,,,,,,,,+3(149)
+228,Sharp_cone(Sharp_cone),Hangzhou Normal University,2,209,+1(19),,,,-6,,,,,,,,+2(170)
+229,生活不易 猫猫哭泣(I am too NAN),North China Electric Power University,2,216,+1(24),,,,,,,-2,,,,,+3(152)
+230,老年人的绝地反击(Jedi Counterattack for the Elderly),North University of China,2,217,+1(31),,,,-1,,,,,,,,+3(146)
+231,码农五月哭(Acmer may cry),China University of Mining and Technology,2,219,+1(19),,,,-10,,,,,,,,+4(140)
+231,请把气球插在这里谢谢(balloon collector),Jilin University,2,219,+1(22),,,,-7,,,,,,,,+3(157)
+233,南工喷壶(NJTech Watering Cans),Nanjing Tech University,2,220,+1(32),,,,-8,,,,,,,,+2(168)
+234,华灯初上(shining),Shandong University of Technology,2,222,+1(26),,,,-4,,,-11,,,,,+5(116)
+235,犹豫，就会白给(Hesitation，is defeat),Nanjing University of Aeronautics and Astronautics,2,224,+1(31),,,,,,,-6,,,,,+4(133)
+235,给大佬递蓝色果汁(blue juice to U),Beijing Jiaotong University,2,224,+1(20),,-4,,-2,,,-8,,,,,+4(144)
+235,老爷保号(GDUT_Laoye bless us),Guangdong University of Technology,2,224,+2(34),,,,-2,,,,,,,,+1(170)
+238,模拟上火(NJUPT_SA_reverse),Nanjing University of Posts and Telecommunications,2,227,+1(21),,,,,,,,,,,,+5(126)
+238,队名(Team Name),Fujian University of Technology,2,227,+1(20),,,,-3,,,,,,,,+2(187)
+240,或许有一度春风不负微草枯荣(Grave for you),Shandong University of Technology,2,231,+1(13),,,,-4,,,,,,,,+3(178)
+241,我先放一盒卫生纸在这(out of tissue),Zhejiang SCI-TECH University,2,232,+1(19),,,,-8,,,,,,,,+4(153)
+242,蒟蒻驿站(Loser Station),Guilin University of Electronic Technology,2,233,+1(22),,,,,,,,,,,,+2(191)
+243,这是阿清第一次也是最后一次(Persistent Jinqing Tree),Harbin Engineering University,2,235,+2(31),,,,-5,,,-6,,,,,+1(184)
+244,自动wa掘机(WaAutomationMachine),Xidian University,2,242,+1(32),,,,,,,,,,,,+3(170)
+245,护发小分队(NEU_No Alopecia),Northeastern University (China),2,245,+1(24),,,,-3,,,-3,,,,,+4(161)
+246,我太南了(IamPumpkin),Zhejiang A & F University,2,247,+1(20),,,,-4,,,,,,,,+3(187)
+247,邱晓峰(SteveQiu),University of Science and Technology Beijing,2,249,+1(42),,,,,,,,,,,,+3(167)
+248,渔舟唱晚(JXNU_1),Jiangxi Normal University,2,255,+1(51),,,,,,,,,,,,+3(164)
+249,肥宅真的好快乐(Fat Nerd Really Happy),Zhejiang Gongshang University,2,256,+1(22),,,,,,,,,,,,+4(174)
+250,浙江工商大学老年队(ZJGSU),Zhejiang Gongshang University,2,265,+1(45),,,,-8,,,,,,,,+3(180)
+251,"长沙到西安的机票快没了(No Bronze,No Back)",Changsha University of Science and Technology,2,271,+3(52),,,,-3,,,,,,,,+2(159)
+252,涅槃(rebirth),Beijing Information Science and Technology University,2,276,+1(15),,,,-1,,,,,,,,+3(221)
+253,Abooooooooom's Nirvana(Abooooooooom's Nirvana),Northwest A&F University,2,282,+4(31),,,,-5,,,,,,,,+1(191)
+254,我曾经也是个膜法师(CDUT_0x01),Chengdu University of Technology,2,284,+2(54),,,,,,,,,,,,+2(190)
+255,北师二队(Everglow),Beijing Normal University,2,288,+1(15),,,,+3(233),,-4,,,,,,-3
+256,小星星点到谁我就选谁(Choose whoever the little star is),North University of China,2,289,+1(49),,,,,,,,,,,,+3(200)
+257,辣针德牛啤(NEU_Spiced beef beer),Northeastern University (China),2,296,+1(53),,,,-1,,-1,-1,,,,,+6(143)
+258,棉花糖(Cotton candy),Shandong University,2,307,+1(12),,,,,,,+8(155),,,,,-6
+259,东华后备(reserve),Donghua University,2,317,+1(18),,,,,,,,,,,,+4(239)
+260,三只咕儿(Three Goo),Wuhan University of Science and Technology,2,328,+4(34),,,,-3,,,,,,,,+4(174)
+260,FADe(FADe),JiangNan University,2,328,+2(12),,,,-1,,,,,,,,+4(236)
+262,感谢西北工业大学的牛奶面包(milk bread),Xi'an University of Posts and Telecommunications,2,330,+6(79),,,,,,,,,,,,+1(151)
+262,喷火龙(NSU_ASAP),Chengdu Neusoft University,2,330,+1(39),,,,-8,,,,,,,,+6(191)
+264,？？？(what's ur problem),Fuzhou University,2,336,+1(27),,,,,,+2(289),,,,,,-8
+265,北湖函数(North Lake Function),Beijing Institute of Technology,2,349,+1(14),,,,,,-1,,,,,,+5(255)
+266,要能搞个铜就好了(hziee6),Information Engineering College of Hangzhou Dianzi University,2,356,+2(30),,,,-1,,-4,,,,,,+3(266)
+267,徐工一队(XZITO1),Xuzhou University of Technology,2,359,+4(34),,,,,,,,,,,,+5(185)
+268,ljw给点力啊(ljw give some power),Wuhan University of Technology,2,360,+5(99),,,,+1(181),,,,,,,,-7
+269,我们教练会出签到题(XTU_Our Coach Can Make Easy Problem),Xiangtan University,2,367,+1(71),,,,,,,,,,,,+6(196)
+270,从-1开始(NJUPT_Runtime Error),Nanjing University of Posts and Telecommunications,2,370,+2(43),,,,-3,,,,,,,,+5(227)
+271,SUSTech_Susteren(SUSTech_Susteren),Southern University of Science and Technology,2,371,+1(14),,,,-8,,,,,,,,+6(257)
+272,NWAFU_STAR(NWAFU_STAR),Northwest A&F University,2,377,+2(36),,,,-1,,,,,,,,+6(221)
+273,ICPC歼殛战(the ICPC Extreme),Renmin University of China,2,380,+1(24),,,,-5,-2,,,,,,,+4(296)
+274,SMU_快乐(SMU_HAPPY),SouthWest Minzu University,2,383,+2(44),,,,-4,,,,,,,,+6(219)
+275,三个臭皮匠顶一个诸葛亮(Three Stinky Top one Zhuge Liang),Chengdu Technological University,2,385,+3(80),,,,,,,,,,,,+3(225)
+276,你的菜名从爱尔兰到契丹无人不知无人不晓(Tales_of_your_vegetables_are_told_from_Ireland_to_Cathay),Northwestern Polytechnical University,2,387,+1(29),,,,-4,,,,,,,,+6(258)
+277,一梦几许(dream),Ningbo University,2,410,+1(20),,,,-1,,,,,,,,+7(270)
+278,随便(suibian),"Ningbo Institute of Technology, ZJU",2,411,+1(52),,,,,,,,,,,,+7(239)
+278,战术后仰(What is an international superstar?),Zhengzhou University,2,411,+3(49),,,,,,,,,,,,+5(242)
+280,擅长最后一击(Good at last shot),Zhengzhou University,2,416,+1(27),,,,-5,,,,,,,,+7(269)
+281,好问题来一个(Give a name is a good question),Nanyang Normal University,2,427,+2(125),,,,,,,,,,,,+3(242)
+281,万一拿了牌子呢(what if we win the prize),Nanchang Hangkong University,2,427,+1(35),,,,,,,,,,,,+6(292)
+283,意大利杜马(ItalyDuma),Guizhou University,2,430,+2(35),,,,,,,-6,,,,,+8(235)
+284,比速度(You are angry),Changchun University of Science and Technology,2,436,+2(34),,,,-3,,,-17,,,,,+9(222)
+285,"拿铁，纵享丝滑(Latte, smooth)",Shandong University at Weihai,2,439,+3(47),,,,,,,,,,,,+5(272)
+286,退役门槛(NEU_retirement threshold),Northeastern University (China),2,443,+1(87),,,,,,,+8(216),,,,,-6
+287,（*v*）（^v^）（`v`）((*v*)(^v^)(`v`)),Jiangxi University of Finance and Economics,2,449,+2(73),,,,,,,,,,,,+6(256)
+288,SMU_樱桃姐姐和苹果弟弟(SMU_Fruit Family),SouthWest Minzu University,2,454,+2(91),,,,,,,,,,,,+4(283)
+289,离金牌还差一点(JXNU_2),Jiangxi Normal University,2,468,+1(96),,-1,,-3,,,,,,,,+6(272)
+290,乐山烧烤齐名大佛(LSNU_BBQ),Leshan Normal University,2,474,+3(70),,,,,,,-1,,,,,+6(264)
+291,喵喵鹅(miao miao e),Hangzhou Normal University,2,477,+5(124),,,,,,,,,,,,+4(213)
+292,徐老师是天下最好的老师(Mr.Xu is the best teacher in the world),Hubei University of Technology,1,9,+1(9),,,,,,,,,,,,-9
+293,先收拾垃圾(xi an pick us),University of Jinan,1,15,+1(15),,,,,,,-3,,,,,-16
+294,scpc(scpc),Southwest University of Science and Technology,1,20,+1(20),,,,,,,,,,,,-5
+295,想吃羊肉泡馍(Want to eat mutton bread in the soup),Nanchang University,1,22,+1(22),,,,-2,,,,,,,,-3
+296,旅游一队(travel team_1),Qilu University Of Technology,1,23,+1(23),,,,,,,-2,,,,,-8
+297,听说打铁没有好果汁吃(Dress or iron),Xi'an University of Technology,1,24,+1(24),,,,,,,,,,,,-8
+298,粉红凤凰花凤凰(I just pass six level),Qingdao University,1,25,+1(25),,,,,,,,,-1,,,-9
+298,俩条单身狗和一个脱单的学弟(double gays and a boy),Renai College of Tianjin University,1,25,+1(25),,,,,,,,,,,,-3
+300,再努力就没头发了(no effort，no bald),University of Electronic Science and Technology of China Zhongshan Institute,1,28,+1(28),,,,,,,,,,,,-2
+301,朝闻道(Dawn),Xidian University,1,29,+1(29),,,,,,,,,,,,-7
+302,xkno1(xkno1),China Jiliang University College of Modern Science and Technology,1,30,+1(30),,,,-1,,,,,,,,
+303,九章算树(Nine Chapters Calculating Tree),Taiyuan University of Technology,1,31,+1(31),,,,,,-1,,,,,,-6
+304,NEUQ-Friday(NEUQ-Listen for WA),Northeastern University at Qinhuangdao,1,33,+1(33),,,,,,,,,,,,-6
+304,半辫蒜掰半篮蒜瓣(half braided garlic and half basket garlic cloves),Zhejiang Wanli University,1,33,+1(33),,,,,,,,,,,,-5
+304,蒙面鸽王(Masked Ace Pigeon),ShanDong Normal University,1,33,+1(33),,,,,,,,,,,,-12
+307,今晚不加班(WontSleepLate),Wuhan University,1,34,+1(34),,,,-2,,,,,,,,-10
+308,码完这题我去堆雪人(NEU_make a snowman),Northeastern University (China),1,35,+1(35),,,,,,,,,,,,-13
+309,震惊！三名大学生打acm竟然发生了这种事......(shockteam),Communication University of China,1,38,+1(38),,,,,,,,,,,,-4
+310,加州汽车旅馆(Motel California),Changchun University of Technology,1,40,+1(40),,,,,,,,,,,,-5
+310,渡鸦号(SKD32450 Raven),Shandong University of Science and Technology,1,40,+1(40),,,,-2,,,,,,,,-1
+312,奥利给！干了！兄弟们！(Guys Keep at a Distance),ShanghaiTech University,1,41,+2(21),,,,,,,-10,,,,,-9
+313,阿尔法二队(WZU Alpha2),Wenzhou University,1,43,+1(43),,,,,,,,,,,,-7
+314,楼上别A了(Fight IT),Nanyang Institute of Technology,1,44,+1(44),,,,,,,,,,,,-2
+315,皮卡丘的百万伏特(Pikachu's million volts),Nanyang Institute of Technology,1,48,+1(48),,,,,,,,,,,,-6
+316,星之希望(Hope of The Star),Southwest Jiaotong University - Emei,1,49,+2(29),,,,,-1,,,,,,,-7
+316,哈理工2019秋25(HRBUST2019A25),Harbin University of Science and Technology,1,49,+2(29),,,,-2,,,,,,,,-1
+316,"兄弟，买挂不？(need cheater, bro?)",Central China Normal University,1,49,+1(49),,,,-1,,,,,,,,-1
+319,我也想要个气球(Skip CET6 for ballon),Information Engineering University of the People's Liberation Army,1,50,+1(50),,,,,,,,,,,,-7
+320,我一定要D出三星卡莎(SSPU-Fight),Shanghai Polytechnic University,1,53,+2(33),,,,-1,,,,,,,,-6
+321,重拳出击队(heavypunch),Northwestern Polytechnical University,1,56,+2(36),,,,,,,,,,,,-5
+322,幼儿园班车(Kindergarten Bus),Qufu Normal University,1,57,+1(57),,,,,,,,,,,,-3
+323,番茄鸡蛋汤(Tomato and egg soup),Southwest University of Science and Technology,1,58,+2(38),,,,,,,,,,,,-8
+324,我生气了(I'm angry),Minnan Normal University,1,59,+2(39),,,,,,,,,,,,-5
+324,科成AK(cduestcak),ChengDu College of University of Electronic Science and Technology of China,1,59,+1(59),,,,,,,,,,,,-5
+326,奶牛战士(milkyknight),Hubei University of Technology,1,61,+2(41),,,,,,,,,,,,
+327,威严号(SKD31060 Majestic),Shandong University of Science and Technology,1,63,+2(43),,,,-5,,,,,,,,-2
+328,这谁顶得住啊(Who can stand it?),Liaocheng University,1,64,+1(64),,,,,,,,,,,-1,-11
+329,大佬的腿部挂件(The Final),"China University of Mining and Technology, Beijing",1,65,+2(45),,,,,,,,,,,,-5
+330,HEUFirst(HEUFirst),NingXia University,1,67,+2(47),,,,,,,,,-2,,,-8
+331,复读鸽(repeat pigeon),Changzhou University,1,68,+1(68),,,,,,,,,,,,-5
+332,技不如人(Not as good as people),Xi'an University of Science and Technology,1,72,+2(52),,,,-1,,,,,,,,-5
+333,黄渡联代码俱乐部(Huangdu United Coding Club),Tongji University,1,80,+2(60),,,,,,,,,,,,-2
+334,龙鹏逸群(One More Light),Shanghai University,1,81,+2(61),,,,,,,,,,,,-1
+335,拔对面网线(Pull out the opposite network cable),Guizhou University,1,82,+3(42),,,,,,,,,,,,-14
+335,来一只冰棍不(would you like an ice bar),Sichuan Normal University,1,82,+3(42),,,,,,,,,,,,-5
+335,icpc提款机(ICPC cash machine),Shandong University of Finance and Economics,1,82,+2(62),,,,,,,,,,,,
+338,SMU_芝士哥哥和奶酪妹妹(SMU_cheese brothers),SouthWest Minzu University,1,83,+1(83),,,,,,,,,,,,-4
+339,三臭皮匠(www),Southwest Petroleum University,1,84,+2(64),,,,,,,,,,,,-1
+340,南湖水上乐园(South Lake Water Park),South-Central University for Nationalities,1,85,+2(65),,,,,,,,,,,,-6
+341,皮卡乒兵乓(Xauat SDY),Xi'an University of Architecture and Technology,1,86,+1(86),,,,,,,,,,,,-6
+342,我想吃颗辣椒(we like eating pepper),Renai College of Tianjin University,1,88,+1(88),,,,,,,,,,,,-4
+343,五行缺水(where is the water),Shaoxing University Yuanpei College,1,92,+4(32),,,,,,,-11,,,,,-11
+344,见见世面(see the world),Qingdao University,1,94,+3(54),,,,,,,,,,,,-2
+345,奥利给(LittleBlackSmith),Qingdao University,1,95,+3(55),,,,,,,,,,,,-5
+346,"士不可以不弘毅(You say right, you say no to me)",North University of China,1,100,+2(80),,,,,,,,,,,-1,-5
+347,"诚信代打加V...(i am sincere to help you fight,please add v...)",Changsha University,1,101,+3(61),,,,,,,,,,,,-1
+348,胜利之歌(Yankee Doodle Dandy),Xi'an University of Posts and Telecommunications,1,107,+2(87),,,,,,,,,,,,-3
+349,大雁塔的客人(Guests of DYT),Qingdao University,1,108,+2(88),,,,,,,,,,,,-6
+350,吃个肉夹馍(Eat a Rou Jiamo),Shaanxi Normal University,1,111,+2(91),,,,,,,,,,,,-4
+351,潇洒鳄鱼(Snappy the crocodile),Changchun University of Science and Technology,1,112,+4(52),,,,,,,,,,,,-6
+352,SMU_胖胖哒(SMU_Panda),SouthWest Minzu University,1,113,+2(93),,,,,,,,,,,,
+353,gugugu(gugugu),Northwest University,1,114,+2(94),,,,,,,,,-3,,,-1
+354,我心痛 ╯﹏╰ 我的200(The Revengers),Tong Hua Normal University,1,127,+2(107),,,,-3,,,-3,,,,,-6
+354,旅游二队(travel team_2),Qilu University Of Technology,1,127,+1(127),,,,,,,,-3,,,,-6
+356,南极以南最强(swpu_1),Southwest Petroleum University,1,130,+4(70),,,,,,,,,,,,-12
+357,江理全能王吴君羽(God xiao nb),Jiangxi University of Science and Technology,1,133,+3(93),,,,,,,,,,,,
+358,AAAAAAA(AAAAAAA),Southwest University of Science and Technology,1,141,+4(81),,,,,,,,,,,,-15
+359,拿铁(Latte),LanZhou University,1,142,+2(122),,,,,,,,,,,,
+360,一日游(One-day tour),"Ningbo Institute of Technology, ZJU",1,150,+3(110),,,,-1,,,,,,,,-4
+361,0xer(0xer),Information Engineering University of the People's Liberation Army,1,157,+3(117),,,,-1,,,,,,,,-2
+362,拿牌就跟队友表白(Red fish and green fish and donkeys),Xi'an University of Technology,1,167,+5(87),,,,,,,-1,,,,,-8
+363,不专业陪练(wonderful answer),Shandong Jianzhu University,1,170,+4(110),,,,,,,,,,,,-6
+364,MaxFlow(MaxFlow),NingXia University,1,198,+6(98),,,,,,,,,,,,-3
+365,lwl(LWL),Guizhou Education University,1,207,+3(167),,,,,,,,,,,,-3
+366,只想签个到(Just one balloon),Xi'an University of Technology,1,221,+5(141),,,,,,,,,,,,-7
+367,喜欢肉夹馍(like rou jia mo),Ningbo University,1,223,+5(143),,,,,,,,,,,,-2
+368,憨憨怪(binggo),Chang'an University,1,233,+7(113),,,,,,,,,,,,-5
+369,我是鸽手(I am a pigeon fancier),ShanDong Normal University,1,236,+6(136),,,,,,,,,,,,-3
+370,李队长说的都队(Captain Li's team),Central South University of Forestry and Technology,1,241,+8(101),,,,,,,,,,,,-3
+370,Linear base(Linear base),NingXia University,1,241,+7(121),,,,,,,,,,,,
+372,饥鸡集机记(Chicken in the fight),Nanchang Hangkong University,1,256,+3(216),,,,,,-1,,,,,,
+373,刘同学是世界上最好的同学(OwO),Hubei University of Technology,1,327,+3(287),,,,,,,,,,,,-1
+374,我的队友没过计算机二级(My teammates didn't pass level 2),Nanyang Normal University,1,337,+8(197),,,,,,,,,,,,-2
+375,燃烧的诺顿(Burnt Norton),Chang'an University,1,379,+6(279),,,,,,,,,,,,-2
+376,队长四级没过(silly captain),Xinjiang University,1,410,+7(290),,,,,,,,,,,,-4
+377,不超时就错误(TLE||WA),Guizhou Education University,0,0,-7,,,,,,,,,,,,-4
+377,至诚至博(SUST 1),Shaanxi University of Science and Technology,0,0,-6,,,,,,,,,,,,-4
+377,泉哥太强了！(Hug Quan Legs),Shengli College China University of Petroleum,0,0,-9,,,,,,,,,,,,

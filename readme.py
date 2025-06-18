@@ -3,6 +3,12 @@ import os
 from datetime import datetime
 import re
 
+# 判断字符串是否包含中文
+def contains_chinese(text):
+    if text is None:
+        return False
+    return bool(re.search('[\u4e00-\u9fff]', text))
+
 # 读取日期数据
 dates_dict = {}
 with open('date.csv', 'r', encoding='utf-8') as f:
@@ -35,15 +41,14 @@ for filename in os.listdir(csv_dir):
     # 获取日期
     date_val = dates_dict.get(contest_name)
     
-    # 检查列名
+    # 检查列名和内容
     filepath = os.path.join(csv_dir, filename)
     with open(filepath, 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
         headers = next(reader)
         headers = [header.strip('\ufeff') for header in headers]  # 去除BOM头
-        print(f"Processing {contest_name} with headers: {headers}")
         
-        # 检查列
+        # 检查列存在性
         has_rank = 'Rank' in headers
         has_school_rank = 'School Rank' in headers
         has_school = 'School' in headers
@@ -55,6 +60,41 @@ for filename in os.listdir(csv_dir):
         has_members = 'Member1' in headers
         has_date = date_val is not None
         
+        # 检查School列内容语言
+        school_col_index = headers.index('School') if has_school else -1
+        school_has_chinese = False
+        if has_school:
+            # 最多检查前50行
+            row_count = 0
+            for row in reader:
+                if school_col_index < len(row):
+                    text = row[school_col_index]
+                    if text and contains_chinese(text):
+                        school_has_chinese = True
+                        break
+                row_count += 1
+                if row_count >= 50:  # 最多检查50行
+                    break
+            # 重置文件指针到开头（跳过标题行）
+            f.seek(0)
+            next(reader)  # 跳过标题行
+            
+        # 检查Members列内容语言 (检查Member1)
+        members_col_index = headers.index('Member1') if has_members else -1
+        members_has_chinese = False
+        if has_members:
+            # 最多检查前50行
+            row_count = 0
+            for row in reader:
+                if members_col_index < len(row):
+                    text = row[members_col_index]
+                    if text and contains_chinese(text):
+                        members_has_chinese = True
+                        break
+                row_count += 1
+                if row_count >= 50:  # 最多检查50行
+                    break
+    
     data.append({
         'season': season,
         'type': contest_type,
@@ -70,7 +110,9 @@ for filename in os.listdir(csv_dir):
         'has_medal': has_medal,
         'has_problem': has_problem,
         'has_members': has_members,
-        'has_date': has_date
+        'has_date': has_date,
+        'school_has_chinese': school_has_chinese if has_school else False,
+        'members_has_chinese': members_has_chinese if has_members else False
     })
 
 # 排序函数
@@ -105,13 +147,25 @@ data.sort(key=contest_sort_key)
 
 # 生成Markdown表格
 markdown_lines = [
-    "|contest|Rank|School Rank|School|Team|Solved|Penalty|Medal|Problem|Members|Date|",
+    "|contest|Rank|School Rank|School|Team|Solved|Penalty|Medal|Problems|Members|Date|",
     "|---|---|---|---|---|---|---|---|---|---|---|"
 ]
 
-# 检查符号函数
+# 检查符号函数 - 通用
 def check_symbol(condition):
     return '✅' if condition else ''
+
+# 检查符号函数 - School列专用
+def check_school_symbol(has_column, has_chinese):
+    if not has_column:
+        return ''
+    return '✅' if has_chinese else '🔤'
+
+# 检查符号函数 - Members列专用
+def check_members_symbol(has_column, has_chinese):
+    if not has_column:
+        return ''
+    return '✅' if has_chinese else '🔤'
 
 # 添加表格行
 for item in data:
@@ -119,13 +173,13 @@ for item in data:
         f"|{item['contest_name']}"
         f"|{check_symbol(item['has_rank'])}"
         f"|{check_symbol(item['has_school_rank'])}"
-        f"|{check_symbol(item['has_school'])}"
+        f"|{check_school_symbol(item['has_school'], item['school_has_chinese'])}"
         f"|{check_symbol(item['has_team'])}"
         f"|{check_symbol(item['has_solved'])}"
         f"|{check_symbol(item['has_penalty'])}"
         f"|{check_symbol(item['has_medal'])}"
         f"|{check_symbol(item['has_problem'])}"
-        f"|{check_symbol(item['has_members'])}"
+        f"|{check_members_symbol(item['has_members'], item['members_has_chinese'])}"
         f"|{check_symbol(item['has_date'])}|"
     )
     markdown_lines.append(line)
