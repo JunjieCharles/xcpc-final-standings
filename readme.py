@@ -47,6 +47,7 @@ for filename in os.listdir(csv_dir):
         reader = csv.reader(f)
         headers = next(reader)
         headers = [header.strip('\ufeff') for header in headers]  # 去除BOM头
+        # print(f"Processing file: {filename}, Headers: {headers}")
         
         # 检查列存在性
         has_rank = 'Rank' in headers
@@ -147,8 +148,8 @@ data.sort(key=contest_sort_key)
 
 # 生成Markdown表格
 markdown_lines = [
-    "|contest|Rank|School Rank|School|Team|Solved|Penalty|Medal|Problems|Members|Date|",
-    "|---|---|---|---|---|---|---|---|---|---|---|"
+    "|contest|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|Date|",
+    "|---|---|---|---|---|---|---|---|---|---|"
 ]
 
 # 检查符号函数 - 通用
@@ -172,7 +173,7 @@ for item in data:
     line = (
         f"|{item['contest_name']}"
         f"|{check_symbol(item['has_rank'])}"
-        f"|{check_symbol(item['has_school_rank'])}"
+        # f"|{check_symbol(item['has_school_rank'])}"
         f"|{check_school_symbol(item['has_school'], item['school_has_chinese'])}"
         f"|{check_symbol(item['has_team'])}"
         f"|{check_symbol(item['has_solved'])}"
@@ -188,7 +189,7 @@ for item in data:
 with open('README.md', 'w', encoding='utf-8') as f:
     intro = """# ICPC/CCPC 区域赛终榜汇总
 
-- 原始文件在 org 文件夹下，经过 convert.py 解析后的 .csv 文件在 csv 文件夹下
+- 原始文件在 org 文件夹下，解析后的文件在 csv 文件夹下
 - contests.csv 包含赛站日期信息
 - 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
 
@@ -198,4 +199,4 @@ with open('README.md', 'w', encoding='utf-8') as f:
     f.write(intro)
     f.write('\n'.join(markdown_lines))
 
-print("README.md generated successfully!")
+# print("README.md generated successfully!")
