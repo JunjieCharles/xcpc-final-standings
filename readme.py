@@ -16,6 +16,8 @@ with open('date.csv', 'r', encoding='utf-8') as f:
     for row in reader:
         contest = row['contest']
         date_str = row['date']
+        if not date_str:
+            continue
         dates_dict[contest] = datetime.strptime(date_str, '%Y/%m/%d')
 
 # 准备数据列表
