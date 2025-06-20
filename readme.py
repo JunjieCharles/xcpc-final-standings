@@ -9,6 +9,8 @@ def contains_chinese(text):
         return False
     return bool(re.search('[\u4e00-\u9fff]', text))
 
+contests = set()
+
 # 读取日期数据
 dates_dict = {}
 with open('date.csv', 'r', encoding='utf-8') as f:
@@ -19,6 +21,7 @@ with open('date.csv', 'r', encoding='utf-8') as f:
         if not date_str:
             continue
         dates_dict[contest] = datetime.strptime(date_str, '%Y/%m/%d')
+        contests.add(contest)
 
 # 准备数据列表
 data = []
@@ -31,79 +34,98 @@ for filename in os.listdir(csv_dir):
         
     # 解析文件名
     base_name = filename[:-4]
-    parts = base_name.split('_', 2)
+    contests.add(base_name)
+
+for contest in contests:
+    parts = contest.split('_', 2)
     if len(parts) < 3:
         continue
         
     season = int(parts[0])
     contest_type = parts[1]
     city = parts[2]
-    contest_name = f"{season}_{contest_type}_{city}"
+    # contest_name = f"{season}_{contest_type}_{city}"
     
     # 获取日期
-    date_val = dates_dict.get(contest_name)
-    
-    # 检查列名和内容
-    filepath = os.path.join(csv_dir, filename)
-    with open(filepath, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        headers = next(reader)
-        headers = [header.strip('\ufeff') for header in headers]  # 去除BOM头
-        # print(f"Processing file: {filename}, Headers: {headers}")
-        
-        # 检查列存在性
-        has_rank = 'Rank' in headers
-        has_school_rank = 'School Rank' in headers
-        has_school = 'School' in headers
-        has_team = 'Team' in headers
-        has_solved = 'Solved' in headers
-        has_penalty = 'Penalty' in headers
-        has_medal = 'Medal' in headers
-        has_problem = 'A' in headers
-        has_members = 'Member1' in headers
-        has_date = date_val is not None
-        
-        # 检查School列内容语言
-        school_col_index = headers.index('School') if has_school else -1
+    date_val = dates_dict.get(contest)
+
+    if date_val is not None and not os.path.exists(os.path.join(csv_dir, f"{contest}.csv")):
+        has_rank = False
+        has_school_rank = False
+        has_school = False
+        has_team = False
+        has_solved = False
+        has_penalty = False
+        has_medal = False
+        has_problem = False
+        has_members = False
+        has_date = True
         school_has_chinese = False
-        if has_school:
-            # 最多检查前50行
-            row_count = 0
-            for row in reader:
-                if school_col_index < len(row):
-                    text = row[school_col_index]
-                    if text and contains_chinese(text):
-                        school_has_chinese = True
-                        break
-                row_count += 1
-                if row_count >= 50:  # 最多检查50行
-                    break
-            # 重置文件指针到开头（跳过标题行）
-            f.seek(0)
-            next(reader)  # 跳过标题行
-            
-        # 检查Members列内容语言 (检查Member1)
-        members_col_index = headers.index('Member1') if has_members else -1
         members_has_chinese = False
-        if has_members:
-            # 最多检查前50行
-            row_count = 0
-            for row in reader:
-                if members_col_index < len(row):
-                    text = row[members_col_index]
-                    if text and contains_chinese(text):
-                        members_has_chinese = True
+    
+    else:
+        # 检查列名和内容
+        filename = f"{contest}.csv"
+        filepath = os.path.join(csv_dir, filename)
+        with open(filepath, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            headers = next(reader)
+            headers = [header.strip('\ufeff') for header in headers]  # 去除BOM头
+            # print(f"Processing file: {filename}, Headers: {headers}")
+            
+            # 检查列存在性
+            has_rank = 'Rank' in headers
+            has_school_rank = 'School Rank' in headers
+            has_school = 'School' in headers
+            has_team = 'Team' in headers
+            has_solved = 'Solved' in headers
+            has_penalty = 'Penalty' in headers
+            has_medal = 'Medal' in headers
+            has_problem = 'A' in headers
+            has_members = 'Member1' in headers
+            has_date = date_val is not None
+            
+            # 检查School列内容语言
+            school_col_index = headers.index('School') if has_school else -1
+            school_has_chinese = False
+            if has_school:
+                # 最多检查前50行
+                row_count = 0
+                for row in reader:
+                    if school_col_index < len(row):
+                        text = row[school_col_index]
+                        if text and contains_chinese(text):
+                            school_has_chinese = True
+                            break
+                    row_count += 1
+                    if row_count >= 50:  # 最多检查50行
                         break
-                row_count += 1
-                if row_count >= 50:  # 最多检查50行
-                    break
+                # 重置文件指针到开头（跳过标题行）
+                f.seek(0)
+                next(reader)  # 跳过标题行
+                
+            # 检查Members列内容语言 (检查Member1)
+            members_col_index = headers.index('Member1') if has_members else -1
+            members_has_chinese = False
+            if has_members:
+                # 最多检查前50行
+                row_count = 0
+                for row in reader:
+                    if members_col_index < len(row):
+                        text = row[members_col_index]
+                        if text and contains_chinese(text):
+                            members_has_chinese = True
+                            break
+                    row_count += 1
+                    if row_count >= 50:  # 最多检查50行
+                        break
     
     data.append({
         'season': season,
         'type': contest_type,
         'city': city,
         'date': date_val,
-        'contest_name': contest_name,
+        'contest_name': contest,
         'has_rank': has_rank,
         'has_school_rank': has_school_rank,
         'has_school': has_school,
@@ -191,6 +213,7 @@ for item in data:
 with open('README.md', 'w', encoding='utf-8') as f:
     intro = """# ICPC/CCPC 区域赛终榜汇总
 
+- 榜单仅包含正式队伍
 - 原始文件在 org 文件夹下，解析后的文件在 csv 文件夹下
 - contests.csv 包含赛站日期信息
 - 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
