@@ -172,7 +172,7 @@ data.sort(key=contest_sort_key)
 
 # 生成Markdown表格
 markdown_lines = [
-    "|contest|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|Date|",
+    "|Contest|Date|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|",
     "|---|---|---|---|---|---|---|---|---|---|"
 ]
 
@@ -196,6 +196,7 @@ def check_members_symbol(has_column, has_chinese):
 for item in data:
     line = (
         f"|{item['contest_name']}"
+        f"|{item['date'].strftime('%Y/%m/%d') if item['date'] else ''}"
         f"|{check_symbol(item['has_rank'])}"
         # f"|{check_symbol(item['has_school_rank'])}"
         f"|{check_school_symbol(item['has_school'], item['school_has_chinese'])}"
@@ -205,7 +206,7 @@ for item in data:
         f"|{check_symbol(item['has_medal'])}"
         f"|{check_symbol(item['has_problem'])}"
         f"|{check_members_symbol(item['has_members'], item['members_has_chinese'])}"
-        f"|{check_symbol(item['has_date'])}|"
+        # f"|{check_symbol(item['has_date'])}|"
     )
     markdown_lines.append(line)
 
