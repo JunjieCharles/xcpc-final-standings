@@ -72,8 +72,9 @@ def standings_html_to_csv(html_content):
 # 示例使用
 if __name__ == "__main__":
     file = sys.argv[1]
+    name = file.split('/')[-1].split('.')[0]
     with open(file, 'r', encoding='utf-8') as f:
         html_content = f.read()
     
     df = standings_html_to_csv(html_content)
-    df.to_csv("qoj.csv", index=False, encoding='utf-8-sig')
+    df.to_csv(f"{name}.csv", index=False, encoding='utf-8-sig')
