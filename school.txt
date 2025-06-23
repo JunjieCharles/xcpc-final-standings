@@ -1,4 +1,4 @@
-unknown: 42_ICPC_沈阳.csv(144), 45_ICPC_南京.csv(482), 45_ICPC_昆明.csv(743), 46_ICPC_澳门.csv(102)
+unknown: 42_ICPC_沈阳.csv(144), 45_ICPC_南京.csv(482), 45_ICPC_昆明.csv(743)
 上海商学院: 45_ICPC_上海.csv(633)
 上海外国语大学: 45_ICPC_昆明.csv(620)
 上海对外经贸大学: 10_CCPC_济南.csv(234), 49_ICPC_上海.csv(298)
