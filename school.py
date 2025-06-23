@@ -11,13 +11,7 @@ def normalize(s):
         s = OpenCC('t2s').convert(s)
     return s
 
-# zh,en
-# 清华大学,Tsinghua University
-# 北京大学,Peking University
-# 浙江大学,Zhejiang University
 df = pd.read_csv('school.csv')
-# zh_en = {normalize(chn): normalize(eng) for chn, eng in zip(df['zh'], df['en'])}
-# en_zh = {normalize(eng): normalize(chn) for chn, eng in zip(df['zh'], df['en'])}
 zh_en = {}
 en_zh = {}
 for i, row in df.iterrows():
