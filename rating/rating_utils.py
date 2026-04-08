@@ -87,17 +87,6 @@ def normalize(s, t2s=False):
         s = OpenCC('t2s').convert(s)
     return s
 
-def normalize_school_name(school):
-    school = normalize(school)
-    school = school.replace('非独立法人', '')
-    if school == '中国人民解放军信息工程大学' or school == '中国人民解放军网络空间部队信息工程大学':
-        school = '信息工程大学'
-    elif school == '齐鲁工业大学山东省科学院':
-        school = '齐鲁工业大学'
-    elif school == '蒙古国立大学':
-        school = normalize('National University of Mongolia')
-    return school
-
 def rating_color(rating):
     if not rating:
         return 'color:#000000;'
@@ -117,17 +106,3 @@ def rating_color(rating):
         return 'color:#FF0000;'
     else:
         return 'color:#FF0000;'
-
-ORDER = ['第一场', '第二场', 'CCPC网络', '西安', '成都', '武汉', '哈尔滨', '南京', '济南', '沈阳', '郑州', '上海', '重庆', 'The 50th ICPC Asia Hong Kong Regional Contest_cn', 'Asia East Continent Final']
-
-def getidx(x):
-    for idx, o in enumerate(ORDER):
-        if o in x:
-            return idx
-    return -1
-
-def get_contest_files(path='.'):
-    files = os.listdir(path)
-    files = [f for f in files if f.endswith('.csv') and getidx(f) != -1]
-    files = sorted(files, key=lambda x: getidx(x))
-    return files
