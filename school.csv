@@ -26,7 +26,8 @@ zh,en,alt
 西北工业大学,Northwestern Polytechnical University
 厦门大学,Xiamen University
 华南理工大学,South China University of Technology,"华南理工大学计算机学院,华南理工大学软件学院"
-大连理工大学,Dalian University of Technology
+大连理工大学,Dalian University of Technology,"大连理工大学主校区,大连理工大学软件学院"
+大连理工大学盘锦校区,Panjin Campus of Dalian University of Technology,"大连理工大学盘锦"
 华东师范大学,East China Normal University
 中国农业大学,China Agricultural University
 电子科技大学,University of Electronic Science and Technology of China
@@ -148,7 +149,7 @@ zh,en,alt
 常州大学,Changzhou University
 温州大学,Wenzhou University
 重庆邮电大学,Chongqing University of Posts and Telecommunications
-齐鲁工业大学,Qilu University of Technology
+齐鲁工业大学,Qilu University of Technology,"齐鲁工业大学山东省科学院"
 曲阜师范大学,Qufu Normal University
 武汉工程大学,Wuhan Institute of Technology
 湖南农业大学,Hunan Agricultural University
@@ -255,7 +256,7 @@ zh,en,alt
 青岛理工大学,Qingdao University of Technology
 华北水利水电大学,North China University of Water Resources and Electric Power
 厦门理工学院,Xiamen University of Technology
-北京电子科技学院,Beijing Electronic Science and Technology Institute
+北京电子科技学院,Beijing Electronic Science and Technology Institute,"中共中央办公厅电子科技学院"
 南京工程学院,Nanjing Institute of Technology
 北京联合大学,Beijing Union University
 长春工业大学,Changchun University of Technology
@@ -581,7 +582,7 @@ zh,en,alt
 豫章师范学院,Yuzhang Normal University
 山西工程技术学院,Shanxi Institute of Technology
 太原学院,Taiyuan University
-信息工程大学,Information Engineering University,"中国人民解放军战略支援部队信息工程大学,中国人民解放军信息工程大学,战略支援信息工程大学,战略支援部队信息工程大学,解放军信息工程大学,Information Engineering University of the Peoples Liberation Army"
+信息工程大学,Information Engineering University,"中国人民解放军战略支援部队信息工程大学,中国人民解放军信息工程大学,战略支援信息工程大学,战略支援部队信息工程大学,解放军信息工程大学,中国人民解放军网络空间部队信息工程大学,Information Engineering University of the Peoples Liberation Army"
 国防科技大学,National University of Defense Technology,中国人民解放军国防科技大学
 陆军工程大学,Army Engineering University of PLA,"中国人民解放军陆军工程大学,中国人民解放军理工大学"
 北京理工大学珠海学院,"Beijing Institute of Technology, Zhuhai"
@@ -639,3 +640,7 @@ zh,en,alt
 浙江财经大学,Zhejiang University of Finance & Economics,Zhejiang University of Finance and Economics
 浙江科技大学,Zhejiang University of Science and Technology,Zhejiang University of Science & Technology
 广州城市理工学院,Guangzhou City University of Technology,"华南理工大学广州学院"
+宁波职业技术大学,Ningbo Polytechnic University,"宁波职业技术学院"
+山东科技大学泰安校区,Shandong University of Science and Technology Taian,"山东科技大学泰安"
+重庆移通学院,Chongqing College of Mobile Communication,"重庆邮电大学移通学院"
+中国人民警察大学,China People's Police University,"中国人民武装警察部队学院"

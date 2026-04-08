@@ -4,6 +4,7 @@ import re
 from opencc import OpenCC
 import os
 from tqdm import tqdm
+from rating_utils import calculateRating
 
 def normalize(s):
     s = str(s)
@@ -31,65 +32,6 @@ def getSchool(s):
     if s in alt_zh:
         s = alt_zh[s]
     return s
-
-def calcSeed(ratingToCounts, rating, prev=None):
-    if prev==None:
-        prev = rating
-    seed = 1
-    for t in ratingToCounts:
-        seed += ratingToCounts[t] * (1.0 / (1 + math.pow(10, (rating - t) / 400)))
-    seed -= 1.0 / (1 + math.pow(10, (rating - prev) / 400))
-    return seed
-
-def calculateRating(userRank, currentRatings):
-    '''
-    userRank: dict {user:rank}
-    currentRatings: dict {user:rating}
-    '''
-    userCount = len(userRank)
-    if userCount == 0:
-        return []
-    userList = list(userRank.keys())
-    ratingToCounts = {}
-    for user in userList:
-        if user not in currentRatings:
-            currentRatings[user] = 1400
-        rating = currentRatings[user]
-        if rating not in ratingToCounts:
-            ratingToCounts[rating] = 0
-        ratingToCounts[rating] += 1
-    userList = sorted(userList, key=lambda x: currentRatings[x])
-    inc = 0
-    delta = {}
-    for user in userList:
-        rank = userRank[user]
-        rating = currentRatings[user]
-        M = math.sqrt(calcSeed(ratingToCounts, rating) * rank)
-        l = 1
-        r = 8000
-        while l<r-1:
-            m = int((l+r)/2.0)
-            if calcSeed(ratingToCounts, m, rating) < M:
-                r = m
-            else:
-                l = m
-        delta[user] = int((l-rating)/2.0)
-        inc += delta[user]
-    inc = -(inc/userCount)-1
-    for user in delta:
-        delta[user] += inc
-    s = math.floor(min(userCount, 4 * math.sqrt(userCount)))
-    sum = 0
-    for i in range(s):
-        sum += delta[userList[i]]
-    inc = min(max(-1 * int(sum/s), -10), 0)
-    returnValue = {}
-    for user in userList:
-        delta[user] += inc
-        rating = currentRatings[user]
-        new_rating = math.floor(rating + delta[user])
-        returnValue[user] = new_rating
-    return returnValue
     
 
 if __name__ == "__main__":
