@@ -216,7 +216,7 @@ with open('README.md', 'w', encoding='utf-8') as f:
 
 - 榜单仅包含正式队伍
 - 原始文件在 org 文件夹下，解析后的文件在 csv 文件夹下
-- contests.csv 包含赛站日期信息
+- date.csv 包含赛站日期信息
 - 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
 
 ## 数据完整性
